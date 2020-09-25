@@ -40,6 +40,11 @@ blockquote, q {
 	quotes: none;
 }
 
+.column {
+    column-count: 2;
+    column-gap: 40px;
+}
+
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
@@ -3251,12 +3256,12 @@ input, select, textarea {
 			background-color: #5052b5;
 		}
 
-		/* .wrapper.style2-alt {
+		.wrapper.style2-alt {
 			background-color: #3e4094;
-		} */
+		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #6e176c;
 		}
 
 		.wrapper.style3-alt {
